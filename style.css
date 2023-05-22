@@ -1,0 +1,171 @@
+* {
+  font-family: "Righteous", cursive;
+}
+/* start custom header */
+
+.img-custom {
+  background-image: linear-gradient(rgba(0, 0, 0, 65%), rgba(0, 0, 0, 65%)),
+    url(./media/header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wawe2-custom {
+  bottom: 0;
+}
+.wawe1 {
+  bottom: 15px;
+}
+
+.custom-col {
+  padding: 100px;
+  padding-left: 50px;
+}
+/* end custom header */
+
+/* start custom card */
+.custom-card {
+  background-image: linear-gradient(rgba(0, 0, 0, 65%), rgba(0, 0, 0, 65%)),
+    url(./media/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h3 {
+  color: #1566c0;
+}
+
+.custom-border {
+  border-bottom: 3px solid yellow;
+}
+
+.custom-txt {
+  margin-top: 100px;
+}
+
+.custom-lorem {
+  margin-top: 20px;
+}
+
+.card-img2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 65%), rgba(0, 0, 0, 65%)),
+    url(./media/2.jpg);
+}
+
+.card-img3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 65%), rgba(0, 0, 0, 65%)),
+    url(./media/3.jpg);
+}
+.card-img4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 65%), rgba(0, 0, 0, 65%)),
+    url(./media/4.jpg);
+}
+/* end custom section card */
+
+/* start custom section icone */
+
+.cust-border {
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 0px 6px 7px rgba(181, 181, 181, 0.74);
+}
+.custom-h3 {
+  padding: 10px;
+}
+
+.border-cust {
+  border-radius: 10%;
+  box-shadow: 0px 6px 7px rgba(181, 181, 181, 0.74);
+  height: 60px;
+  width: 60px;
+}
+/* end custom section icone */
+
+/* star section custom container */
+.custom-section-div {
+  border-radius: 3%;
+  box-shadow: 0px 6px 7px rgba(181, 181, 181, 0.74);
+}
+
+.custom-black {
+  color: black;
+}
+/* end custom section container */
+
+/* start section img text  */
+.cust-img-text {
+  border-radius: 100%;
+  border: 4px solid #1566c0;
+  padding: 5px;
+}
+/* end custom section img-text */
+
+/* start custom section timeline */
+.custom-border-col {
+  border-right: 2px solid #1566c0;
+}
+.custom-border-col-2 {
+  border-left: 2px solid #1566c0;
+}
+
+.pallino-r {
+  position: relative;
+}
+.pallino-r::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #1566c0;
+  position: absolute;
+  top: 0px;
+  right: -24px;
+}
+
+.pallino-l {
+  position: relative;
+}
+.pallino-l::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #1566c0;
+  position: absolute;
+  top: 0px;
+  left: -24px;
+}
+
+.custom-botton-1 {
+  background-color: #1566c0;
+  color: white;
+  height: 30px;
+  width: 180px;
+}
+
+.btn {
+  border-radius: 0% !important;
+}
+/* end custom section timeline */
+
+/* start custom footer */
+
+.img-custom-footer {
+  background-image: linear-gradient(
+      rgba(255, 255, 255),
+      rgba(255 255 255 / 52%),
+      rgba(0 0 0 / 63%),
+      rgba(0 0 0 / 63%)
+    ),
+    url(./media/footer.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* end custom footer */
